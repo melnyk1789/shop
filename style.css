@@ -44,3 +44,62 @@ body {
     font-weight: 500;
     text-transform: capitalize;
 }
+/* Секция продукта */
+.product-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 120px;
+  background-color: #f9f9f9;
+}
+
+.product-text {
+  max-width: 50%;
+}
+
+.product-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #779611;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.product-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #707070;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.product-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #779611;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #56740a;
+}
+
+.product-image {
+  max-width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
