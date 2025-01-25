@@ -44,31 +44,79 @@ body {
     font-weight: 500;
     text-transform: capitalize;
 }
-#  
-/* section 2 */
-.flaves {
-  padding-top: 80px;
+/* Перша секція */
+.hero {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-.flaves-title {
+.hero-container {
+  display: flex;
+  gap: 443px;
+}
+
+.hero-title {
+  color: #779611;
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  padding-bottom: 50px;
+  font-weight: 600;
+}
+
+.hero-text {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 50px;
+  color: #000000;
+}
+
+.hero-link {
+  background-color: #779611;
+  color: #F9F9F9;
+  border-radius: 40px;
+  padding: 18px 70px;
+  font-size: 32px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+}
+/* Третя секція */
+.subscription {
+  padding-top: 114px;
+  padding-bottom: 114px;
+}
+
+.subscription-title {
   font-family: "Exo 2", sans-serif;
   font-weight: 600;
   font-size: 36px;
   color: #779611;
-  line-height: 43px, 2px;
+  line-height: 43px;
   padding-bottom: 35px;
 }
 
-.flaves-text {
+.subscription-text {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  line-height: 24.38px;
-padding-bottom: 50px;
-
+  line-height: 24px 38px;
+  padding-bottom: 50px;
 }
-.flaves-name {
+
+.subscription-list {
+  display: flex;
+  gap: 20px;
+}
+
+.subscription-name {
+  color: #779611;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  color: #779611;
+  padding-bottom: 15px;
+}
+
+.subscription-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 50px;
 }
