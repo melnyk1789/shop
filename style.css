@@ -79,6 +79,46 @@ body {
   display: inline-block;
   font-family: "Montserrat", sans-serif;
 }
+/* section 2 */
+.flaves {
+  padding-top: 80px;
+  border-top: 2px solid #779611;
+}
+
+.flaves-title {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #779611;
+  line-height: 24.2px;
+  padding-bottom: 35px;
+}
+
+.flaves-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24.38px;
+  padding-bottom: 50px;
+}
+
+.flaves-list {
+  display: flex;
+  gap: 20px;
+}
+
+.flaves-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #779611;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.flaves-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24.38px;
+}
 /* Третя секція */
 .subscription {
   padding-top: 114px;
@@ -119,4 +159,4 @@ body {
   font-size: 20px;
   line-height: 24px;
   padding-bottom: 50px;
-}
+} 
